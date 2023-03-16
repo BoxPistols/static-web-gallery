@@ -41,11 +41,35 @@ main {
 }
 
 h1 {
-  font-weight: bold;
+  font-weight: 300;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 /* ----- Youtube ----- */
+.video-container-area {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 16px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  /* background-color: #000; */
+}
+
+.video-container-box {
+  display: block;
+  gap: 8px;
+  min-width: 240px;
+  max-width: 480px;
+  width: 100%;
+  height: 100%;
+}
+
 .video-container {
   position: relative;
   width: 100%;
