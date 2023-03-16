@@ -47,6 +47,7 @@ h1 {
 }
 
 /* ----- Youtube ----- */
+/* @info: grid https://ascii.jp/elem/000/001/659/1659899/ */
 .video-container-area {
   /* display: flex; */
   flex-wrap: wrap;
@@ -56,12 +57,12 @@ h1 {
   align-items: center;
   width: 100%;
   height: 100%;
-  max-width: 1200px;
+  max-width: 1440px;
   margin: auto;
   /* background-color: #000; */
 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
 }
 
 .video-container-box {
